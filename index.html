@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login — ThreeFolds</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <h1 class="h1">Login</h1>
+      <label class="label">Username</label>
+      <input id="username" class="input" placeholder="Enter username">
+      <label class="label">Password</label>
+      <input id="password" class="input" type="password" placeholder="Enter password">
+      <button id="loginBtn" class="button">Login</button>
+      <p class="text">Don't have an account? <a href="register.html">Create Account</a></p>
+    </div>
+  </main>
+  <script>
+    document.getElementById("loginBtn").addEventListener("click", () => {
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+      if (user && pass) {
+        localStorage.setItem("loggedInUser", user);
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Please enter both username and password.");
+      }
+    });
+  </script>
+</body>
+</html>

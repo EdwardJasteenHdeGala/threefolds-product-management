@@ -1,0 +1,22 @@
+[
+  { "name": "Pedigree Adult Complete Nutrition", "sku": "DOG-PED-001", "brand": "Pedigree", "category": "Dog Food", "quantity": 100, "price": 1250 },
+  { "name": "Pedigree Puppy Chicken & Milk", "sku": "DOG-PED-002", "brand": "Pedigree", "category": "Dog Food", "quantity": 80, "price": 1350 },
+  { "name": "Vitality Classic Lamb & Beef", "sku": "DOG-VIT-001", "brand": "Vitality", "category": "Dog Food", "quantity": 60, "price": 1450 },
+  { "name": "Vitality High Energy Formula", "sku": "DOG-VIT-002", "brand": "Vitality", "category": "Dog Food", "quantity": 50, "price": 1550 },
+  { "name": "Royal Canin Medium Adult", "sku": "DOG-RCN-001", "brand": "RoyalCanin", "category": "Dog Food", "quantity": 40, "price": 2800 },
+  { "name": "Royal Canin Mini Puppy", "sku": "DOG-RCN-002", "brand": "RoyalCanin", "category": "Dog Food", "quantity": 35, "price": 2950 },
+  { "name": "SmartHeart Gold Lamb & Rice", "sku": "DOG-SMH-001", "brand": "SmartHeart", "category": "Dog Food", "quantity": 70, "price": 1200 },
+  { "name": "SmartHeart Power Pack", "sku": "DOG-SMH-002", "brand": "SmartHeart", "category": "Dog Food", "quantity": 65, "price": 1300 },
+  { "name": "TopBreed Beef Flavor", "sku": "DOG-TBR-001", "brand": "TopBreed", "category": "Dog Food", "quantity": 90, "price": 950 },
+  { "name": "TopBreed Puppy Formula", "sku": "DOG-TBR-002", "brand": "TopBreed", "category": "Dog Food", "quantity": 85, "price": 1050 },
+  { "name": "Nutri Chunks Beef & Vegetables", "sku": "DOG-NTC-001", "brand": "NutriChunks", "category": "Dog Food", "quantity": 75, "price": 1100 },
+  { "name": "Nutri Chunks Lamb & Rice", "sku": "DOG-NTC-002", "brand": "NutriChunks", "category": "Dog Food", "quantity": 70, "price": 1150 },
+  { "name": "Purina Dog Chow Active Adult", "sku": "DOG-PUR-001", "brand": "PurinaDogChow", "category": "Dog Food", "quantity": 60, "price": 1400 },
+  { "name": "Purina Dog Chow Puppy Chicken", "sku": "DOG-PUR-002", "brand": "PurinaDogChow", "category": "Dog Food", "quantity": 55, "price": 1500 },
+  { "name": "IAMS Proactive Health Adult", "sku": "DOG-IAM-001", "brand": "IAMS", "category": "Dog Food", "quantity": 45, "price": 2200 },
+  { "name": "IAMS Puppy Formula", "sku": "DOG-IAM-002", "brand": "IAMS", "category": "Dog Food", "quantity": 40, "price": 2300 },
+  { "name": "Holistic Recipe Lamb & Rice", "sku": "DOG-HRC-001", "brand": "HolisticRecipe", "category": "Dog Food", "quantity": 30, "price": 2500 },
+  { "name": "Acana Grain-Free Adult", "sku": "DOG-ACA-001", "brand": "Acana", "category": "Dog Food", "quantity": 25, "price": 3200 },
+  { "name": "Orijen Original Grain-Free", "sku": "DOG-ORI-001", "brand": "Orijen", "category": "Dog Food", "quantity": 20, "price": 3500 },
+  { "name": "Eukanuba Puppy Large Breed", "sku": "DOG-EUK-001", "brand": "Eukanuba", "category": "Dog Food", "quantity": 15, "price": 2800 }
+]

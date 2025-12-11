@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Pedigree Adult Complete Nutrition",
+    "sku": "DOG-PED-001",
+    "brand": "Pedigree",
+    "category": "Dog Food",
+    "quantity": 100,
+    "price": 1250,
+    "manufacture": "2025-08-01",
+    "expiration": "2026-08-01"
+  },
+  {
+    "name": "Vitality Classic Lamb & Beef",
+    "sku": "DOG-VIT-001",
+    "brand": "Vitality",
+    "category": "Dog Food",
+    "quantity": 60,
+    "price": 1450,
+    "manufacture": "2025-07-15",
+    "expiration": "2026-07-15"
+  },
+  {
+    "name": "Royal Canin Medium Adult",
+    "sku": "DOG-RCN-001",
+    "brand": "RoyalCanin",
+    "category": "Dog Food",
+    "quantity": 40,
+    "price": 2800,
+    "manufacture": "2025-06-10",
+    "expiration": "2026-06-10"
+  },
+  {
+    "name": "SmartHeart Gold Lamb & Rice",
+    "sku": "DOG-SMH-001",
+    "brand": "SmartHeart",
+    "category": "Dog Food",
+    "quantity": 70,
+    "price": 1200,
+    "manufacture": "2025-07-01",
+    "expiration": "2026-07-01"
+  },
+  {
+    "name": "TopBreed Beef Flavor",
+    "sku": "DOG-TBR-001",
+    "brand": "TopBreed",
+    "category": "Dog Food",
+    "quantity": 90,
+    "price": 950,
+    "manufacture": "2025-08-05",
+    "expiration": "2026-08-05"
+  },
+  {
+    "name": "Nutri Chunks Beef & Vegetables",
+    "sku": "DOG-NTC-001",
+    "brand": "NutriChunks",
+    "category": "Dog Food",
+    "quantity": 75,
+    "price": 1100,
+    "manufacture": "2025-07-20",
+    "expiration": "2026-07-20"
+  },
+  {
+    "name": "Purina Dog Chow Active Adult",
+    "sku": "DOG-PUR-001",
+    "brand": "Purina",
+    "category": "Dog Food",
+    "quantity": 60,
+    "price": 1400,
+    "manufacture": "2025-06-25",
+    "expiration": "2026-06-25"
+  },
+  {
+    "name": "IAMS Proactive Health Adult",
+    "sku": "DOG-IAM-001",
+    "brand": "IAMS",
+    "category": "Dog Food",
+    "quantity": 45,
+    "price": 2200,
+    "manufacture": "2025-05-30",
+    "expiration": "2026-05-30"
+  },
+  {
+    "name": "Holistic Recipe Lamb & Rice",
+    "sku": "DOG-HRC-001",
+    "brand": "HolisticRecipe",
+    "category": "Dog Food",
+    "quantity": 30,
+    "price": 2500,
+    "manufacture": "2025-06-15",
+    "expiration": "2026-06-15"
+  },
+  {
+    "name": "Acana Grain-Free Adult",
+    "sku": "DOG-ACA-001",
+    "brand": "Acana",
+    "category": "Dog Food",
+    "quantity": 25,
+    "price": 3200,
+    "manufacture": "2025-05-10",
+    "expiration": "2026-05-10"
+  },
+  {
+    "name": "Orijen Adult Dog",
+    "sku": "DOG-ORI-001",
+    "brand": "Orijen",
+    "category": "Dog Food",
+    "quantity": 20,
+    "price": 3500,
+    "manufacture": "2025-04-15",
+    "expiration": "2026-04-15"
+  },
+  {
+    "name": "Eukanuba Adult Maintenance",
+    "sku": "DOG-EUK-001",
+    "brand": "Eukanuba",
+    "category": "Dog Food",
+    "quantity": 50,
+    "price": 2100,
+    "manufacture": "2025-07-12",
+    "expiration": "2026-07-12"
+  },
+  {
+    "name": "Bow Wow Beef Meal",
+    "sku": "DOG-BWW-001",
+    "brand": "BowWow",
+    "category": "Dog Food",
+    "quantity": 80,
+    "price": 1000,
+    "manufacture": "2025-08-08",
+    "expiration": "2026-08-08"
+  },
+  {
+    "name": "Jerhigh Chicken Jerky",
+    "sku": "DOG-JER-001",
+    "brand": "Jerhigh",
+    "category": "Dog Food",
+    "quantity": 55,
+    "price": 1600,
+    "manufacture": "2025-07-18",
+    "expiration": "2026-07-18"
+  },
+  {
+    "name": "Brit Premium Adult",
+    "sku": "DOG-BRT-001",
+    "brand": "Brit",
+    "category": "Dog Food",
+    "quantity": 35,
+    "price": 2000,
+    "manufacture": "2025-06-22",
+    "expiration": "2026-06-22"
+  },
+  {
+    "name": "Monge Special Dog",
+    "sku": "DOG-MNG-001",
+    "brand": "Monge",
+    "category": "Dog Food",
+    "quantity": 40,
+    "price": 2300,
+    "manufacture": "2025-05-28",
+    "expiration": "2026-05-28"
+  },
+  {
+    "name": "Pedigree Puppy Chicken & Milk",
+    "sku": "DOG-PED-002",
+    "brand": "Pedigree",
+    "category": "Dog Food",
+    "quantity": 95,
+    "price": 1350,
+    "manufacture": "2025-08-02",
+    "expiration": "2026-08-02"
+  },
+  {
+    "name": "Royal Canin Maxi Puppy",
+    "sku": "DOG-RCN-002",
+    "brand": "RoyalCanin",
+    "category": "Dog Food",
+    "quantity": 65,
+    "price": 3000,
+    "manufacture": "2025-07-05",
+    "expiration": "2026-07-05"
+  },
+  {
+    "name": "SmartHeart Chicken & Liver",
+    "sku": "DOG-SMH-002",
+    "brand": "SmartHeart",
+    "category": "Dog Food",
+    "quantity": 85,
+    "price": 1250,
+    "manufacture": "2025-08-12",
+    "expiration": "2026-08-12"
+  }
+]

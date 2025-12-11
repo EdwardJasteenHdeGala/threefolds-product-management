@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register — ThreeFolds</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <h1 class="h1">Create Account</h1>
+      <label class="label">Username</label>
+      <input id="newUsername" class="input" placeholder="Choose a username">
+      <label class="label">Password</label>
+      <input id="newPassword" class="input" type="password" placeholder="Choose a password">
+      <button id="registerBtn" class="button">Register</button>
+      <p class="text">Already have an account? <a href="index.html">Login</a></p>
+    </div>
+  </main>
+  <script>
+    document.getElementById("registerBtn").addEventListener("click", () => {
+      const user = document.getElementById("newUsername").value;
+      const pass = document.getElementById("newPassword").value;
+      if (user && pass) {
+        alert("Account created! Please log in.");
+        window.location.href = "index.html";
+      } else {
+        alert("Please fill out both fields.");
+      }
+    });
+  </script>
+</body>
+</html>

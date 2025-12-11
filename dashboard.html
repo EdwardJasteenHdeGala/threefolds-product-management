@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard — ThreeFolds</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand-name">THREEFOLDS</div>
+    <nav class="nav">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="products.html">Products</a>
+      <a href="#" id="logout" style="float:right;">Logout</a>
+    </nav>
+  </header>
+  <main class="page">
+    <div class="card">
+      <h1 class="h1">Welcome to your dashboard</h1>
+      <p class="text">Logged in as: <span id="userDisplay"></span></p>
+    </div>
+    <div class="card">
+      <h2 class="h2">Stock Levels</h2>
+      <canvas id="stockChart" height="120"></canvas>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 ThreeFolds Product Management System</p>
+  </footer>
+  <script>
+    const user = localStorage.getItem("loggedInUser");
+    if (!user) {
+      window.location.href = "index.html";
+    } else {
+      document.getElementById("userDisplay").textContent = user;
+    }
+
+    document.getElementById("logout").addEventListener("click", () => {
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "index.html";
+    });
+
+    fetch("data/products.json")
+      .then(res => res.json())
+      .then(data => {
+        const dogFoods = data.filter(p => p.category === "Dog Food");
+        const sorted = dogFoods.sort((a, b) => b.quantity - a.quantity).slice(0, 10);
+        const labels = sorted.map(p => p.name);
+        const quantities = sorted.map(p => p.quantity);
+
+        new Chart(document.getElementById("stockChart"), {
+          type: "bar",
+          data: {
+            labels: labels,
+            datasets: [{
+              label: "Top Dog Food Products by Stock",
+              data: quantities,
+              backgroundColor: "#800000"
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { display: false },
+              title: {
+                display: true,
+                text: "Top Dog Food Products by Stock"
+              }
+            },
+            scales: {
+              y: { beginAtZero: true }
+            }
+          }
+        });
+      });
+  </script>
+</body>
+</html>
